@@ -1,7 +1,43 @@
 
 .main_div{
     display: flex;
+    margin: auto;
 }
 .main_div>div{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 50px;
+    margin: 30px;
 }
+#upper_div h2{
+    font-size: 21px;
+    color: rgb(87, 83, 83);
+    margin-bottom: 5px;
+  }
+  #upper_div .inp{
+   background-color: rgb(234,238,241);
+   border: none;
+   height: 29px;
+   border-radius: 7px;
+   margin-top: 20px;
+   margin-left: 10px;
+   padding-left: 5px;
+  }
+  #upper_div h1{
+    font-size: 26px;
+    color: rgb(47, 72, 216);
+    margin-bottom: 5px;
+    font-family: cursive;
+  }
+  #button{
+    background-color: rgb(36,183,164);
+    color: white;
+    border: none;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  #button:hover{
+    cursor: pointer;
+    opacity: 70%;
+  }
