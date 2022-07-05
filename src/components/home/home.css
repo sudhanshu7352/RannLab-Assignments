@@ -22,7 +22,7 @@
    margin-left: 10px;
    padding-left: 5px;
   }
-  #upper_div h1{
+   h1{
     font-size: 26px;
     color: rgb(47, 72, 216);
     margin-bottom: 5px;
@@ -41,3 +41,8 @@
     cursor: pointer;
     opacity: 70%;
   }
+.stock_Det{
+  padding-top: 23px;
+  padding-left: 6px;
+  font-family: cursive;
+}
