@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import "./home.css";
 export const Home = () => {
-  const [details, setDetails] = useState({ });
+  const [details, setDetails] = useState({stock: "TSLA", start: "2021-07-22", end: "2021-07-23" });
   const [data,setData]=useState({})
   const handleChange = (e) => {
     //  let {id,value} =e.target
