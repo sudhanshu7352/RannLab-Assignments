@@ -24,7 +24,7 @@ export const Home = () => {
       // console.log(res.data,"helo");
       setData(res.data)
       // alert("Register Successful");
-     setDetails({ stock: "", start: "", end: "" })
+    //  setDetails({ stock: "", start: "", end: "" })
     })
     .catch((err) => {
       console.log(err);
@@ -100,7 +100,7 @@ export const Home = () => {
       </div>)
       : (
        <>
-         <div>Search</div>
+         <div>Search for any stock details</div>
        </>
 
       )
