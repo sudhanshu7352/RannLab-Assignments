@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import "./home.css";
 export const Home = () => {
-  const [details, setDetails] = useState({ stock: "TSLA", start: "2021-07-22", end: "2021-07-22" });
+  const [details, setDetails] = useState({ });
   const [data,setData]=useState({})
   const handleChange = (e) => {
     //  let {id,value} =e.target
@@ -21,7 +21,7 @@ export const Home = () => {
     axios
     .get(`https://api.polygon.io/v2/aggs/ticker/${details.stock}/range/1/day/${details.start}/${details.end}?adjusted=true&sort=asc&limit=120&apiKey=Goh_dEjRv8pKt3UI6NqbS5JNvOhzBdwl`)
     .then((res) => {
-      console.log(res.data,"helo");
+      // console.log(res.data,"helo");
       setData(res.data)
       // alert("Register Successful");
      setDetails({ stock: "", start: "", end: "" })
